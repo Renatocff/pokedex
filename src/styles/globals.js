@@ -2,17 +2,25 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     :root {
-        --background: #f0f2f5;
-        --red: #e52e4d;
-        --green: #33CC95;
-        --blue: #5429cc;
-
-        --blue-light: #6933ff;
-
-        --text-title: #363f5f;
-        --text-body: #969cb3;
-
-        --shape: #ffffff;
+        --steel: 114, 131, 141;
+        --water: 0, 80, 184;
+        --dragon: 186, 169, 70;
+        --electric: 248, 239, 127;
+        --fairy: 255, 59, 161;
+        --ghost: 82, 2, 3;
+        --fire: 233, 11, 22;
+        --ice: 70, 218, 250;
+        --bug: 62, 198, 116;
+        --fighting: 141, 48, 0;
+        --normal: 190, 190, 190;
+        --rock: 145, 128, 108;
+        --grass: 33, 174, 54;
+        --psychic: 101, 10, 180;
+        --dark: 32, 49, 92;
+        --ground: 244, 163, 32;
+        --poison: 266, 84, 126;
+        --flying: 51, 232, 229;
+        --unavailable: 255, 230, 230;
     }
     
     * { // Regra para todos os elementos

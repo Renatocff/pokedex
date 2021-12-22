@@ -1,12 +1,12 @@
 import Dashboard from './Components/Dashboard';
-import { GlobalStyle } from "./styles/globals";
+import { GlobalStyle } from "./styles/globals.js";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Dashboard />
       <GlobalStyle />
-    </div>
+    </>
   );
 }
 
